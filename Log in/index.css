@@ -1,0 +1,100 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    font-family:Arial, Helvetica, sans-serif;
+}
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    min-width: 100vh;
+    background-color:black;
+}
+
+.one{
+    background-color: purple;
+    color: white;
+    width: 500px;
+    height: 365px;
+}
+
+.one h1{
+    padding-top: 15px;
+    text-align: center;
+    font-size: 30px;
+}
+.one .two{
+    margin: 30px 0;
+    height: 30px;
+}
+.one input{
+    width: 90%;
+    height: 100%;
+    border-style: solid;
+    border-radius: 16px;
+    text-indent: 20px;
+}
+.one input::placeholder{
+    padding-left: 10px;
+}
+.one i{
+    padding-left: 8px;
+    padding-right: 5px;
+    font-size: 18px;
+}
+.one .three {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 10px;
+}
+.one .three label {
+    display: flex;
+    align-items: center;
+    
+   
+}
+#forgot{
+    color: white;
+    text-decoration: none;
+    padding-right: 10px;
+}
+#forgot:hover{
+    color:rgb(0, 113, 251);
+}
+p{
+    padding-top:15px;
+    text-align: center;
+}
+button:hover{
+    background-color:rgb(17, 0, 251);
+    color: white;
+
+}
+#button1{
+    font-size: 16px;
+    width: 50%;
+    height: 25px;
+    margin-top: 15px;
+    margin-left: 125px;
+    
+}
+#button2{
+    font-size: 16px;
+    width: 60%;
+    height: 25px;
+    margin-top: 15px;
+    margin-left: 100px;
+    
+}
+#button3{
+    
+    width: 60%;
+    height: 30px;
+    margin-top: 80px;
+    margin-left: 100px;
+    
+}
+
